@@ -50,6 +50,7 @@ const NavMenu = styled.div`
     justify-content: flex-end;
     margin:0px;
     padding:0px;
+    position: relative;
 
 `;
 export default Header;

@@ -104,4 +104,3 @@ const CTALogoTwo = styled.img`
   width: 100%;
 `;
 export default Login;
-

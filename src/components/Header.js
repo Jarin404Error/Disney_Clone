@@ -9,7 +9,27 @@ const Header = (props) => {
       <NavMenu>
         <a href="/home">
           <img src="/images/home-icon.svg " alt="home" />
-          <span>Home</span>
+          <span>HOME</span>
+        </a>
+        <a href="/search">
+          <img src="/images/search-icon.svg" />
+          <span>SEARCH</span>
+        </a>
+        <a href="/watchlist">
+          <img src="/images/watchlist-icon.svg" />
+          <span>WATCHLIST</span>
+        </a>
+        <a href="/original">
+          <img src="/images/original-icon.svg" />
+          <span>ORIGINAL</span>
+        </a>
+        <a>
+          <img src="/images/movie-icon.svg" alt="MOVIES" />
+          <span>MOVIES</span>
+        </a>
+        <a>
+          <img src="/images/series-icon.svg" alt="SERIES" />
+          <span>SERIES</span>
         </a>
       </NavMenu>
     </Nav>
@@ -105,10 +125,9 @@ const NavMenu = styled.div`
     }
   }
 
-  /* @media (max-width: 768px) {
+  @media (max-width: 768px) {
     display: none;
-  } */
+  }
 `;
-
 
 export default Header;
